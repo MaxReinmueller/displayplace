@@ -2,12 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import {MainNav} from './components/MainNav';
+import {ProductsPage} from './pages/ProductsPage'
 
 function App() {
   return (
     <div className="App">
-      <MainNav />
+      <ProductsPage />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
