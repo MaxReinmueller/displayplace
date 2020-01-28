@@ -1,9 +1,12 @@
 import React from 'react'
 
+// components
 import {ProductNav} from '../components/ProductNav'
 import {MainNav} from '../components/MainNav'
 import { render } from '@testing-library/react';
+import {MainPageSlider} from '../components/MainPageSlider'
 
+// style
 import { Container, Row, Col } from "reactstrap";
 
 export class ProductsPage extends React.Component {
@@ -30,7 +33,7 @@ export class ProductsPage extends React.Component {
                             <ProductNav />
                         </Col>
                         <Col>
-                        
+                            <MainPageSlider />
                         </Col>
                     </Row>
                 </Container>
