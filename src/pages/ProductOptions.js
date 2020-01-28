@@ -3,6 +3,7 @@ import React from 'react'
 // components
 import {MainNav} from '../components/MainNav'
 import {ProductNav} from '../components/ProductNav'
+import {ProductCard} from '../components/ProductCard'
 
 // style
 import { Container, Row, Col } from "reactstrap";
@@ -27,8 +28,11 @@ export class ProductOptions extends React.Component{
                 <MainNav />
                 <Container>
                     <Row>
+                        <Col sm='4'>
+                            <ProductNav />
+                        </Col>
                         <Col>
-                        <ProductNav />
+                            <ProductCard />
                         </Col>
                     </Row>
                 </Container>
