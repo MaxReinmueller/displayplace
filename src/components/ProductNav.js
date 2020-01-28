@@ -2,7 +2,7 @@ import React from 'react'
 
 import { ListGroup, ListGroupItem } from 'reactstrap';
 
-export const productNav = props => {
+export const ProductNav = props => {
     return (
         <div>
             <ListGroup>
