@@ -28,7 +28,7 @@ export class ProductOptions extends React.Component{
                 <MainNav />
                 <Container>
                     <Row>
-                        <Col sm='4'>
+                        <Col sm='3.5'>
                             <ProductNav />
                         </Col>
                         <Col>

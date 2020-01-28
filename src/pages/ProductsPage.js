@@ -30,7 +30,7 @@ export class ProductsPage extends React.Component {
                 <MainNav />
                 <Container>
                     <Row>
-                        <Col >
+                        <Col sm='3.5'>
                             <ProductNav />
                         </Col>
                         <Col>
