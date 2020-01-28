@@ -7,12 +7,12 @@ export const ProductNav = props => {
         <div>
             <ListGroup>
                 <ListGroupItem style={{backgroundColor: '#004C97'}} active action>INDOOR / OUTDOOR DISPLAYS</ListGroupItem>
-                <ListGroupItem tag="a" href="/productoptions" action>Advertising Flags</ListGroupItem> 
-                <ListGroupItem tag="a" href="/productoptions" action>Step and Repeat Backdrop</ListGroupItem> 
-                <ListGroupItem tag="a" href="/productoptions" action>Hanging Displays</ListGroupItem> 
-                <ListGroupItem tag="a" href="/productoptions" action>Standing Displays</ListGroupItem> 
-                <ListGroupItem tag="a" href="/productoptions" action>Custom Event Tent</ListGroupItem> 
-                <ListGroupItem tag="a" href="/productoptions" action>Table Throw</ListGroupItem> 
+                <ListGroupItem tag="a" href="/options" action>Advertising Flags</ListGroupItem> 
+                <ListGroupItem tag="a" href="/options" action>Step and Repeat Backdrop</ListGroupItem> 
+                <ListGroupItem tag="a" href="/options" action>Hanging Displays</ListGroupItem> 
+                <ListGroupItem tag="a" href="/options" action>Standing Displays</ListGroupItem> 
+                <ListGroupItem tag="a" href="/options" action>Custom Event Tent</ListGroupItem> 
+                <ListGroupItem tag="a" href="/options" action>Table Throw</ListGroupItem> 
             </ListGroup>
             <ListGroup>
                 <ListGroupItem style={{backgroundColor: '#004C97'}} active action>BANNERS</ListGroupItem>

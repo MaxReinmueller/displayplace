@@ -5,6 +5,7 @@ import {ProductNav} from '../components/ProductNav'
 import {MainNav} from '../components/MainNav'
 import { render } from '@testing-library/react';
 import {MainPageSlider} from '../components/MainPageSlider'
+import {MainFeatured} from '../components/MainFeatured'
 
 // style
 import { Container, Row, Col } from "reactstrap";
@@ -34,6 +35,7 @@ export class ProductsPage extends React.Component {
                         </Col>
                         <Col>
                             <MainPageSlider />
+                            <MainFeatured />
                         </Col>
                     </Row>
                 </Container>
