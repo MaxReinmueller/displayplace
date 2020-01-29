@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import {ProductsPage} from './pages/ProductsPage'
 import {ProductOptions} from './pages/ProductOptions'
 import {ProductPage} from './pages/ProductPage'
+import {StepAndRepP} from './pages/PagesToBeConv/StepAndRepP'
 import { NoMatch } from './components/NoMatch';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/" component={ProductsPage} />
         <Route exact path="/options" component={ProductOptions} />
         <Route exact path="/product" component={ProductPage} />
+        <Route exact path="/stepandRep" component={StepAndRepP} />
         <Route component={NoMatch} />
       </Switch>
     </Router>

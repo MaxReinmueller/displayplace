@@ -8,7 +8,7 @@ export const ProductNav = props => {
             <ListGroup>
                 <ListGroupItem style={{backgroundColor: '#004C97'}} active action>INDOOR / OUTDOOR DISPLAYS</ListGroupItem>
                 <ListGroupItem tag="a" href="/options" action>Advertising Flags</ListGroupItem> 
-                <ListGroupItem tag="a" href="/product" action>Step and Repeat Backdrop</ListGroupItem> 
+                <ListGroupItem tag="a" href="/stepandrep" action>Step and Repeat Backdrop</ListGroupItem> 
                 <ListGroupItem tag="a" href="/options" action>Hanging Displays</ListGroupItem> 
                 <ListGroupItem tag="a" href="/options" action>Standing Displays</ListGroupItem> 
                 <ListGroupItem tag="a" href="/product" action>Custom Event Tent</ListGroupItem> 
