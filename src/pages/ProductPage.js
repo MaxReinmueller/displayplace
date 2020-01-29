@@ -1,13 +1,14 @@
 import React from 'react'
 
 // components
+import {ProductDisplay} from '../components/ProductDisplay'
 import {ProductNav} from '../components/ProductNav'
 import {MainNav} from '../components/MainNav'
 
 // style
 import { Container, Row, Col } from "reactstrap";
 
-export class ProductsPage extends React.Component {
+export class ProductPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -28,8 +29,11 @@ export class ProductsPage extends React.Component {
                 <MainNav />
                 <Container>
                     <Row>
-                        <Col>
+                        <Col sm='3.5'>
                             <ProductNav />
+                        </Col>
+                        <Col>
+                            <ProductDisplay />
                         </Col>
                     </Row>
                 </Container>
