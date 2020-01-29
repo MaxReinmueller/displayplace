@@ -20,7 +20,7 @@ export const ProductCard = (props) => {
                     <li><CardText> {props.salesPoint3} Point 3</CardText></li>
                     </ul>
                     <CardSubtitle>Sizes </CardSubtitle>
-                    <CardLink href="/product">{props.height}" x {props.width}"</CardLink>
+                    <CardLink href="/">{props.height}" x {props.width}"</CardLink>
                     </Col>
                     <Col>
                     <CardImg right width="50%" src="https://github.com/MaxReinmueller/displayplace/blob/master/client/src/utils/images/tentionFabricStand.jpg?raw=true" alt="Card image cap" />

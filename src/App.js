@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import {ProductsPage} from './pages/ProductsPage'
 import {ProductOptions} from './pages/ProductOptions'
+import {ProductPage} from './pages/ProductPage'
 import { NoMatch } from './components/NoMatch';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={ProductsPage} />
         <Route exact path="/options" component={ProductOptions} />
+        <Route exact path="/product" component={ProductPage} />
         <Route component={NoMatch} />
       </Switch>
     </Router>
