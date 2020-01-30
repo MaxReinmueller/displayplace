@@ -1,7 +1,7 @@
 import React from 'react'
 
 // components
-import {StepAndRep} from '../../components/ProductDisplay'
+import {StepAndRep} from '../../components/CompToBeConverted/StepAndRep'
 import {ProductNav} from '../../components/ProductNav'
 import {MainNav} from '../../components/MainNav'
 
