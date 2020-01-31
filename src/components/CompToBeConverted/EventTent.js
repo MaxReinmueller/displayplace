@@ -73,22 +73,25 @@ export const StepAndRep = props => {
         <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
       </Carousel>
       <div>
-      <h2>Step And Repeat</h2>
+      <h2>Event Tent (Full Color)</h2>
       <Row>
         <Col>
-          <p>Our Back Drop- Large Tube is portable and ideal for a background display for all types of indoor events such as trade show booths and photo shoots. These stands have telescoping 1.625" diameter poles that extend out, meaning they are adjustable to certain sizes. Stand also includes travel bag. Insert are constructed with pole pockets.</p>
+            <p>Just in time for summer, the 10 foot Event Tent is the next level in outdoor advertising. Achieve 360 degrees of branding with a custom full fabric dye sub canopy and hardware package. </p>
+            <p>Canopy is printed and sewn Weather Resistant Tent Polyester. Print your brand message on each of the four peaks and valance panels. Our large format full color capabilities take artwork seam to seam unlike competitor tents that rely on small vinyl applications. </p>
+            <p>Heavy duty hex shape 40 mm. aluminum hardware gives the tent strength in outdoor installations. Telescopic legs allow you to adjust the height, and the interior lattice expands the tent interior with the crank of a handle. Each leg has a foot plate ready to be staked to the ground. (Ropes, stakes, and standard carrying bag included with hardware).</p>
         </Col>
       </Row>
       <h6>Features</h6>
       <ul>
-        <li>Digitally printed at 720 x 720 resolution</li>
-        <li>Dye sublimation</li>
+        <li>High resolution digitally printed at 720 x 720</li>
+        <li>Dye-Sublimation Graphic</li>
         <li>Scratch resistant </li>
-        <li>Washable</li>
-        <li>Curl-free edge  </li>
-        <li>Easy to install and replace graphic</li>
-        <li>Indoor Display</li>
+        <li>Weather Resistant (water proof coated fabric)</li>
       </ul>
+      <h6>Material</h6>
+        <ul>
+            <li>6 oz. Tent Fabric (600x600 denier)</li>
+        </ul>
       </div>
       </div>
     );
