@@ -1,11 +1,6 @@
-**To Do**
-[] modify database to inculde productCatagory i.e. Advertising flags.
-[] pass catagory to url, filter database to display products by catagory in the card.
+# Display Place
 
-**In progress**
-[] Single product pages up
+A website for custom printed products. Customers are able to keep a catalogue of their products and simplyify re-orders.
 
-
-**Ice Box**
-
-
+## Link to Site
+http://displayplace.herokuapp.com/
